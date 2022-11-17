@@ -9,28 +9,28 @@ const Navbar = () => {
     
     return(
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-neutral-900 text-gray-300 z-10'>
-            <div>
+            <Link to='home' spy={true} smooth={true} duration={200}>
                 <img src={logo} alt="CBrunote Logo" style={{width: '60px'}} />
-            </div>
+            </Link>
             {/* Menu */}
             <ul className='hidden md:flex'>
                 <li className='font-bold'>
-                    <Link to='home' smooth={true} duration={500}>
+                    <Link to='home' spy={true} smooth={true} duration={500}>
                         Home
                     </Link>
                 </li>
                 <li className='font-bold'>
-                    <Link to='skills' smooth={true} duration={500} offset={-70}>
+                    <Link to='skills' spy={true} smooth={true} duration={500} offset={-70}>
                         Skills
                     </Link>
                 </li>
                 <li className='font-bold'>
-                    <Link to='work' smooth={true} duration={500}>
+                    <Link to='work' spy={true} smooth={true} duration={500}>
                         Work
                     </Link>
                 </li>
                 <li className='font-bold'>
-                    <Link to='contact' smooth={true} duration={500}>
+                    <Link to='contact' spy={true} smooth={true} duration={500}>
                         Contact
                     </Link>
                 </li>
@@ -46,22 +46,22 @@ const Navbar = () => {
             <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-neutral-800 flex flex-col justify-center items-center text-center'}>
                 <ul>
                     <li className='border-b-2 border-pink-600 hover:font-bold py-6 text-3xl'>
-                        <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+                        <Link onClick={handleClick} to='home' spy={true} smooth={true} duration={500}>
                             Home
                         </Link>
                     </li>
                     <li className='border-b-2 border-pink-600 hover:font-bold py-6 text-3xl'>
-                        <Link onClick={handleClick} to='skills' smooth={true} duration={500} offset={-70}>
+                        <Link onClick={handleClick} to='skills' spy={true} smooth={true} duration={500} offset={-70}>
                             Skills
                         </Link>
                     </li>
                     <li className='border-b-2 border-pink-600 hover:font-bold py-6 text-3xl'>
-                        <Link onClick={handleClick} to='work' smooth={true} duration={500}>
+                        <Link onClick={handleClick} to='work' spy={true} smooth={true} duration={500}>
                             Work
                         </Link>
                     </li>
                     <li className='border-b-2 border-pink-600 hover:font-bold py-6 text-3xl'>
-                        <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+                        <Link onClick={handleClick} to='contact' spy={true} smooth={true} duration={500}>
                             Contact
                         </Link>
                     </li>

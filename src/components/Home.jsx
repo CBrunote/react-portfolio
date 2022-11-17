@@ -2,6 +2,7 @@ import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { DocumentPdf } from 'grommet-icons'
 
+
 const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-neutral-900'>
@@ -19,7 +20,7 @@ const Home = () => {
                     </span>
                 </button>
                 <button className='text-neutral-100 group border-2 px-6 py-3 my-2 flex items-center hover:bg-sky-400 hover:border-sky-400'>Resume 
-                    <span>
+                    <span className='group-hover:scale-110 duration-300'>
                         <DocumentPdf color='#f5f5f5' size='medium' className='ml-3 hover:'/>
                     </span>
                 </button>

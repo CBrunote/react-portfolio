@@ -1,10 +1,10 @@
 import Home from "./components/Home";
 import Footer from "./components/Footer";
-import About from "./components/About";
 import Contact from "./components/Contact"
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import { Work } from "./components/Work";
+import { skillsData } from "./data/skillsData";
 
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <div>
       <Navbar />
       <Home />
-      <Skills />
+      <Skills props={skillsData}/>
       <Work />
       <Contact />
       <Footer />
