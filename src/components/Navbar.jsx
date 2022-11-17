@@ -1,7 +1,6 @@
 import React, {useState }from 'react'
 import logo from '../assets/CBrunote_White.png'
 import { FaBars, FaTimes} from 'react-icons/fa'
-import { GrDocumentPdf } from 'react-icons/gr'
 import { Link } from 'react-scroll'
 
 const Navbar = () => {
@@ -9,7 +8,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
     
     return(
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-neutral-900 text-gray-300'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-neutral-900 text-gray-300 z-10'>
             <div>
                 <img src={logo} alt="CBrunote Logo" style={{width: '60px'}} />
             </div>
@@ -21,7 +20,7 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className='font-bold'>
-                    <Link to='skills' smooth={true} duration={500}>
+                    <Link to='skills' smooth={true} duration={500} offset={-70}>
                         Skills
                     </Link>
                 </li>
@@ -52,7 +51,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className='border-b-2 border-pink-600 hover:font-bold py-6 text-3xl'>
-                        <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+                        <Link onClick={handleClick} to='skills' smooth={true} duration={500} offset={-70}>
                             Skills
                         </Link>
                     </li>
