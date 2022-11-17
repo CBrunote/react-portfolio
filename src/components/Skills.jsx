@@ -11,7 +11,7 @@ const Skills = ({ props }) => {
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
             {props.map((skill, index) => {
               return (
-                <div key={index} className='grayscale hover:filter-none hover:scale-110 duration-300 hover:filter-none'>
+                <div key={index} className='grayscale hover:filter-none hover:scale-110 duration-300'>
                   <img className='w-20 mx-auto' src={skill.icon} alt={skill.alt}/>
                   <p className='my-4 font-bold'>{skill.text}</p>
                 </div>
