@@ -3,6 +3,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 import { DocumentPdf } from 'grommet-icons'
 
 
+
 const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-neutral-900'>
