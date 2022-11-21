@@ -1,4 +1,6 @@
 import React from 'react'
+import ProjectItem from './ProjectItem'
+import { projectData } from '../data/projectData'
 
 const Portfolio = () => {
   return (
@@ -10,7 +12,7 @@ const Portfolio = () => {
           </div>
 {/* Container for projects */}
           <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-            {/* map function for each project in projectData */}
+            <ProjectItem props={projectData}/>
           </div>
         </div>
     </div>

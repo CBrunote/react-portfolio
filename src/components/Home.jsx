@@ -1,7 +1,7 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { DocumentPdf } from 'grommet-icons'
-
+import { Link } from 'react-scroll'
 
 
 const Home = () => {
@@ -16,9 +16,9 @@ const Home = () => {
         
             <div className='flex space-x-8'>
                 <button className='text-neutral-100 group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>View Work 
-                    <span className='group-hover:rotate-90 duration-300'>
+                    <Link to='portfolio' spy={true} smooth={true} duration={500} className='group-hover:rotate-90 duration-300'>
                         <HiArrowNarrowRight className='ml-3 hover:'/>
-                    </span>
+                    </Link>
                 </button>
                 <button className='text-neutral-100 group border-2 px-6 py-3 my-2 flex items-center hover:bg-sky-400 hover:border-sky-400'>Resume 
                     <span className='group-hover:scale-110 duration-300'>
