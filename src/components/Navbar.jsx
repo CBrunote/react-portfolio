@@ -1,4 +1,5 @@
 import React, {useState }from 'react'
+import resume from '../assets/Resume_2021.pdf'
 import logo from '../assets/CBrunote_White.png'
 import { FaBars, FaTimes} from 'react-icons/fa'
 import { Link } from 'react-scroll'
@@ -39,7 +40,11 @@ const Navbar = () => {
                         Contact
                     </Link>
                 </li>
-                <button className='bg-pink-600 border-2 hover:text-neutral-50 font-bold px-3 ml-1 rounded-md border-pink-600'>Resume</button>
+                <button className='bg-pink-600 border-2 hover:text-neutral-50 font-bold px-3 ml-1 rounded-md border-pink-600'>
+                    <a href={resume} target="_blank" rel="noreferrer">    
+                        Resume
+                    </a>
+                </button>
             </ul>
 
             {/* Hamburger */}
@@ -75,7 +80,11 @@ const Navbar = () => {
                             Contact
                         </Link>
                     </li>
-                    <li className='border-b-2 border-pink-600 hover:text-neutral-50 font-bold py-6 text-3xl'>Resume</li>
+                    <li className='border-b-2 border-pink-600 hover:text-neutral-50 font-bold py-6 text-3xl'>
+                        <a href={resume} target="_blank" rel="noreferrer">    
+                            Resume
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

@@ -1,8 +1,9 @@
 import React from 'react'
+import resume from '../assets/Resume_2021.pdf'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { DocumentPdf } from 'grommet-icons'
 import { Link } from 'react-scroll'
-
+ 
 
 const Home = () => {
   return (
@@ -20,10 +21,12 @@ const Home = () => {
                         <HiArrowNarrowRight className='ml-3 hover:'/>
                     </Link>
                 </button>
-                <button className='text-neutral-100 group border-2 px-6 py-3 my-2 flex items-center hover:bg-sky-400 hover:border-sky-400'>Resume 
+                <button className='text-neutral-100 group border-2 px-6 py-3 my-2 flex items-center hover:bg-sky-400 hover:border-sky-400'>
+                    <a href={resume} target="_blank" rel="noreferrer">Resume 
                     <span className='group-hover:scale-110 duration-300'>
                         <DocumentPdf color='#f5f5f5' size='medium' className='ml-3 hover:'/>
                     </span>
+                    </a>
                 </button>
             </div>
         </div>
