@@ -75,7 +75,7 @@ const Contact = () => {
   };
 
   return (
-    <div name='contact' className='bg-neutral-900 text-neutral-100 w-full h-screen flex justify-center items-center p-4'>
+    <div name='contact' className='bg-neutral-900 text-neutral-100 w-full h-screen flex justify-center items-center p-4 z-20'>
         <form ref={form} onSubmit={handleFormSubmit} className='flex flex-col max-w-[600px] w-full mx-auto justify-center text-neutral-900'>
           <div className='pb-8 items-center'>
             <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-neutral-100'>Contact</p>

@@ -12,9 +12,9 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 z-50'>
           <div className='sm:text-right text-4xl font-bold'>
-            <img className='w-60 mx-auto my-auto rounded-full' src={headshot} alt='headshot of Christian'/>
+            <img className='w-80 mx-auto my-auto rounded-full ' src={headshot} alt='headshot of Christian'/>
           </div>
           <div className='text-center sm:text-left my-auto'>
             <p className='text-lg text-neutral-400'>I am a recent graduate of the Georgia Tech Full-Stack Web Development Bootcamp and I have a passion for building applications that solve people's problems. After being on the client support side of the tech industry for the last 5 years, I decided that I wanted to learn how to solve the problems with applications at their root or build my own.</p>

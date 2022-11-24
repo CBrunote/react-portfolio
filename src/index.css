@@ -26,3 +26,11 @@
         hsla(242, 74%, 61%, 0.8)   
     )!important;
 }
+
+#tsparticles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+

@@ -9,34 +9,34 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
     
     return(
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-neutral-900 text-neutral-400 z-10'>
+        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-neutral-900 text-neutral-400 z-[100]'>
             <Link to='home' spy={true} smooth={true} duration={200}>
                 <img src={logo} alt="CBrunote Logo" style={{width: '60px'}} />
             </Link>
             {/* Menu */}
             <ul className='hidden md:flex'>
                 <li className='hover:text-neutral-50 font-bold'>
-                    <Link to='home' spy={true} smooth={true} duration={500}>
+                    <Link activeClass="active" to='home' spy={true} smooth={true} duration={500}>
                         Home
                     </Link>
                 </li>
                 <li className='hover:text-neutral-50 font-bold'>
-                    <Link to='about' spy={true} smooth={true} duration={500} offset={-120}>
+                    <Link activeClass="active" to='about' spy={true} smooth={true} duration={500} offset={-120}>
                         About
                     </Link>
                 </li>
                 <li className='hover:text-neutral-50 font-bold'>
-                    <Link to='skills' spy={true} smooth={true} duration={500} offset={-70}>
+                    <Link activeClass="active" to='skills' spy={true} smooth={true} duration={500} offset={-70}>
                         Skills
                     </Link>
                 </li>
                 <li className='hover:text-neutral-50 font-bold'>
-                    <Link to='portfolio' spy={true} smooth={true} duration={500}>
+                    <Link activeClass="active" to='portfolio' spy={true} smooth={true} duration={500}>
                         Portfolio
                     </Link>
                 </li>
                 <li className='hover:text-neutral-50 font-bold'>
-                    <Link to='contact' spy={true} smooth={true} duration={500}>
+                    <Link activeClass="active" to='contact' spy={true} smooth={true} duration={500}>
                         Contact
                     </Link>
                 </li>

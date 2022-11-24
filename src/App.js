@@ -12,10 +12,10 @@ function App() {
   return (
     <div className="bg-neutral-900">
       <Navbar />
-      <Home />
+      <Home/>
       <About />
       <Skills props={skillsData}/>
-      <Portfolio />
+      <Portfolio/>
       <Contact />
       <Footer />
     </div>
