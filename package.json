@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://CBrunote.github.io/react-portfolio",
+  "homepage": "https://CBrunote.github.io/",
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
     "@testing-library/jest-dom": "^5.16.5",
