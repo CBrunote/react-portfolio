@@ -17,14 +17,6 @@ const Home = () => {
             <h2 className='text-3xl sm:text-6xl font-bold text-neutral-300 z-50'>I'm a Full Stack Developer.</h2>
             <p className='text-neutral-400 text-lg py-4 max-w-[700px] z-50'>I'm a full-stack web development bootcamp graduate from Georgia Tech specializing in building (and occasionally designing) exceptional digital experiences on the web. Currently I am looking for opportunites to join a team as a software developer.</p>
             <div className='flex space-x-4 z-50'>
-                <ul className='flex py-4'>
-                    <li className='z-50'>
-                        <a href="https://github.com/CBrunote" target="_blank" rel="noopener noreferrer"><FaGithub size='2rem' className='hover:scale-110 duration-200 hover:opacity-75'/></a>
-                    </li>
-                    <li className='z-50'>
-                        <a href="https://www.linkedin.com/in/christian-bruno-dev/" target="_blank" rel="noopener noreferrer"><FaLinkedin size='2rem' className='hover:scale-110 duration-200 hover:opacity-75'/></a>
-                    </li>
-                </ul>
                 <Link to='portfolio' spy={true} smooth={true} duration={500} className='group-hover:rotate-90 duration-300'>
                     <button className='text-neutral-100 group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>View Work 
                         <HiArrowNarrowRight className='group-hover:rotate-90 duration-300 ml-3 hover:'/>
@@ -38,6 +30,16 @@ const Home = () => {
                     </span>
                     </a>
                 </button>
+            </div>
+            <div>
+            <ul className='flex py-4'>
+                    <li className='z-50'>
+                        <a href="https://github.com/CBrunote" target="_blank" rel="noopener noreferrer"><FaGithub size='2rem' className='hover:scale-110 duration-200 hover:opacity-75'/></a>
+                    </li>
+                    <li className='z-50'>
+                        <a href="https://www.linkedin.com/in/christian-bruno-dev/" target="_blank" rel="noopener noreferrer"><FaLinkedin size='2rem' className='hover:scale-110 duration-200 hover:opacity-75'/></a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
