@@ -2,6 +2,7 @@ import React from 'react'
 import headshot from '../assets/family2021-7694.png'
 
 const About = () => {
+
   return (
     <div name='about' className=' bg-neutral-900 text-neutral-100'>
       <div className='pb-40 flex flex-col justify-center items-center w-full h-full'>
