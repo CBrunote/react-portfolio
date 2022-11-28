@@ -49,7 +49,7 @@ const Navbar = () => {
 
             {/* Hamburger */}
             <div onClick={handleClick} className='md:hidden z-10'>
-                {!nav ? <FaBars className='hover:scale-150 duration-300'/> : <FaTimes className='hover:scale-150 duration-300'/>}
+                {!nav ? <FaBars size='1.75rem' className='hover:scale-150 duration-300'/> : <FaTimes size='1.75rem' className='hover:scale-150 duration-300'/>}
             </div>
 
             {/* Mobile Menu */}
