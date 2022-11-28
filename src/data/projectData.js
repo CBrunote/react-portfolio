@@ -67,7 +67,7 @@ export const projectData = [
     {
         id: 6,
         name: "React Portfolio",
-        url: 'https://cbrunote.github.io/4-Code-Quiz/',
+        url: 'https://cbruno.io/',
         img: portfolio,
         position: 'center',
         alt: 'Portfolio app demo',
