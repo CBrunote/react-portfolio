@@ -12,7 +12,7 @@ export const projectData = [
     {
         id: 1,
         name:'Lyfbro',
-        url: 'https://lyfbro99.herokuapp.com/',
+        url: 'https://lyfbro100.herokuapp.com/',
         img: lyfbro,
         position: 'center',
         alt: 'lybro app demo',
