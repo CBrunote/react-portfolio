@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.3584669d.css",
-    "main.js": "/static/js/main.a81f2f78.js",
+    "main.js": "/static/js/main.cf13a1af.js",
     "static/media/Whats-For-Dinner.png": "/static/media/Whats-For-Dinner.77c64b64c7aaba1604c8.png",
     "static/media/family2021-7694.png": "/static/media/family2021-7694.1a193800fd0ffeadcaca.png",
     "static/media/weather-dashboard.png": "/static/media/weather-dashboard.5c140991450e7dbb137a.png",
     "static/media/code-quiz.png": "/static/media/code-quiz.fe5b3b372794e949d3e9.png",
     "static/media/CBrunote_White.png": "/static/media/CBrunote_White.7407e2203a6cbfce5541.png",
     "static/media/Employee-Tracker.png": "/static/media/Employee-Tracker.c55ca92f16728a0b589f.png",
-    "static/media/Christian_Bruno_Resume_Nov_2022.pdf": "/static/media/Christian_Bruno_Resume_Nov_2022.5c67e27814ba0870fcaa.pdf",
+    "static/media/Christian_Bruno_Resume_Nov_2022.pdf": "/static/media/Christian_Bruno_Resume_Nov_2022.9671be1690f0a4c1a6aa.pdf",
     "static/media/portfolio.png": "/static/media/portfolio.bbddfdaff066884c73b8.png",
     "static/media/Lyfbro.png": "/static/media/Lyfbro.1e52f3d865344573236d.png",
     "static/media/react.png": "/static/media/react.19ae0ab5e34d423791b3.png",
@@ -23,10 +23,10 @@
     "static/media/javascript.png": "/static/media/javascript.c2771487cc77f4e78222.png",
     "index.html": "/index.html",
     "main.3584669d.css.map": "/static/css/main.3584669d.css.map",
-    "main.a81f2f78.js.map": "/static/js/main.a81f2f78.js.map"
+    "main.cf13a1af.js.map": "/static/js/main.cf13a1af.js.map"
   },
   "entrypoints": [
     "static/css/main.3584669d.css",
-    "static/js/main.a81f2f78.js"
+    "static/js/main.cf13a1af.js"
   ]
 }
