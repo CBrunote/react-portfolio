@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '../assets/Resume_2021.pdf'
+import resume from '../assets/Christian_Bruno_Resume_Nov_2022.pdf'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { DocumentPdf } from 'grommet-icons'
 import { Link } from 'react-scroll'
@@ -11,7 +11,7 @@ const Home = () => {
     <div name='home' className='w-full h-screen'>
         <ParticleBackground/>
         {/* Container */}
-        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-gray-300'>
+        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center w-full h-full text-gray-300'>
             <p className='text-pink-600 font-bold text-xl z-50'>Hi, my name is</p>
             <h1 className='text-4xl sm:text-7xl font-bold text-neutral-100 z-50'>Christian Bruno</h1>
             <h2 className='text-3xl sm:text-6xl font-bold text-neutral-300 z-50'>I'm a Full Stack Developer.</h2>
