@@ -29,7 +29,7 @@ export const projectData = [
         alt: 'whatsfordinner app demo',
         github: 'https://github.com/CBrunote/Whats-For-Dinner',
         stack: [<DiMaterializecss size='1.5rem'/>, <FaHtml5 size='1.5rem'/>, <FaCss3Alt size='1.5rem'/>, <SiJavascript size='1.5rem'/>,],
-        description: "What's For Dinner is a web application created to help you find your next meal based on search an ingredient you want to use and adding the ingredients to your Kroger shopping list with pricing. The app uses the MealDB API to display recipes, ingredients lists, and youtube video on how to cook the meal. The Kroger API is utilized to find the price per unit of each ingredient that gets added to your shopping list."
+        description: "What's For Dinner is a web application created to help you find your next meal by searching an ingredient you want to use and adding the ingredients to your Kroger shopping list with pricing. The app uses the MealDB API to display recipes, ingredients lists, and youtube video on how to cook the meal. The Kroger API is utilized to find the price per unit of each ingredient that gets added to your shopping list."
     },
     {
         id: 3,
@@ -56,13 +56,13 @@ export const projectData = [
     {
         id: 5,
         name: "Code Quiz",
-        url: 'https://cbrunote.github.io/4-Code-Quiz/',
+        url: 'https://cbrunote.github.io/Code-Quiz-JavaScript/',
         img: codeQuiz,
         position: 'center',
         alt: 'Code Quiz app demo',
-        github: 'https://github.com/CBrunote/4-Code-Quiz',
+        github: 'https://cbrunote.github.io/Code-Quiz-JavaScript/',
         stack: [<SiJavascript size='1.5rem'/>, <FaHtml5 size='1.5rem'/>, <FaCss3Alt size='1.5rem'/>],
-        description: 'Code quiz is a simple web app built with vanilla HTML, CSS, and JavaScript to provide a way to practice coding topics and save your highscores into local storage.'
+        description: 'Code quiz is a simple web app built with vanilla HTML, CSS, and JavaScript to provide a way to practice coding topics and save your high scores into local storage.'
     },
     {
         id: 6,

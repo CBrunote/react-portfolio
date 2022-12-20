@@ -5,6 +5,7 @@ import { DocumentPdf } from 'grommet-icons'
 import { Link } from 'react-scroll'
 import ParticleBackground from './ParticleBackground'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
 
 const Home = () => {
   return (
@@ -38,6 +39,9 @@ const Home = () => {
                     </li>
                     <li className='z-50'>
                         <a href="https://www.linkedin.com/in/christian-bruno-dev/" target="_blank" rel="noopener noreferrer"><FaLinkedin size='2rem' className='hover:scale-110 duration-200 hover:opacity-75'/></a>
+                    </li>
+                    <li className='z-50'>
+                        <a href="mailto:christian.bruno1995@gmail.com" target="_blank"rel="noopener noreferrer"><MdEmail size='2rem' className='hover:scale-110 duration-200 hover:opacity-75'/></a>
                     </li>
                 </ul>
             </div>

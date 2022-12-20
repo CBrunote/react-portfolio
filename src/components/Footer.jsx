@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, FaTwitterSquare } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
 
 const Footer = () => {
   return (
@@ -12,7 +13,7 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/christian-bruno-dev/" target="_blank" rel="noopener noreferrer"><FaLinkedin size='2rem' className='hover:scale-110 duration-200 hover:opacity-75'/></a>
         </li>
         <li>
-          <a href="https://twitter.com/CBrunote" target="_blank" rel="noopener noreferrer"><FaTwitterSquare size='2rem' className='hover:scale-110 duration-200 hover:opacity-75'/></a>
+          <a href="mailto:christian.bruno1995@gmail.com" target="_blank"rel="noopener noreferrer"><MdEmail size='2rem' className='hover:scale-110 duration-200 hover:opacity-75'/></a>
         </li>
       </ul>
         <p className='text-md mt-2 text-neutral-600'>

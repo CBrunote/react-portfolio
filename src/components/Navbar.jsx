@@ -16,31 +16,31 @@ const Navbar = () => {
             {/* Menu */}
             <ul className='hidden md:flex'>
                 <li className='hover:text-neutral-50 font-bold'>
-                    <Link activeClass="active" to='home' spy={true} smooth={true} duration={500}>
+                    <Link activeClass="text-neutral-100 border-b-4 border-pink-600" to='home' spy={true} smooth={true} duration={500}>
                         Home
                     </Link>
                 </li>
                 <li className='hover:text-neutral-50 font-bold'>
-                    <Link activeClass="active" to='about' spy={true} smooth={true} duration={500} offset={-120}>
+                    <Link activeClass="text-neutral-100 border-b-4 border-pink-600" to='about' spy={true} smooth={true} duration={500} offset={-120}>
                         About
                     </Link>
                 </li>
                 <li className='hover:text-neutral-50 font-bold'>
-                    <Link activeClass="active" to='skills' spy={true} smooth={true} duration={500} offset={-70}>
+                    <Link activeClass="text-neutral-100 border-b-4 border-pink-600" to='skills' spy={true} smooth={true} duration={500} offset={-70}>
                         Skills
                     </Link>
                 </li>
                 <li className='hover:text-neutral-50 font-bold'>
-                    <Link activeClass="active" to='portfolio' spy={true} smooth={true} duration={500}>
+                    <Link activeClass="text-neutral-100 border-b-4 border-pink-600" to='portfolio' spy={true} smooth={true} duration={500} offset={-70}>
                         Portfolio
                     </Link>
                 </li>
                 <li className='hover:text-neutral-50 font-bold'>
-                    <Link activeClass="active" to='contact' spy={true} smooth={true} duration={500}>
+                    <Link activeClass="text-neutral-100 border-b-4 border-pink-600" to='contact' spy={true} smooth={true} duration={500}>
                         Contact
                     </Link>
                 </li>
-                <button className='bg-pink-600 border-2 hover:text-neutral-50 font-bold px-3 ml-1 rounded-md border-pink-600'>
+                <button className='bg-pink-600 border-2 text-neutral-100 hover:text-neutral-50 font-bold px-3 ml-1 rounded-md border-pink-600'>
                     <a href={resume} target="_blank" rel="noreferrer">    
                         Resume
                     </a>
@@ -56,27 +56,27 @@ const Navbar = () => {
             <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen text-neutral-400 bg-neutral-800 flex flex-col justify-center items-center text-center'}>
                 <ul>
                     <li className='border-b-2 border-pink-600 hover:text-neutral-50 font-bold py-6 text-3xl'>
-                        <Link onClick={handleClick} to='home' spy={true} smooth={true} duration={500}>
+                        <Link onClick={handleClick} activeClass="text-neutral-100 border-b-4 border-pink-600" to='home' spy={true} smooth={true} duration={500}>
                             Home
                         </Link>
                     </li>
                     <li className='border-b-2 border-pink-600 hover:text-neutral-50 font-bold py-6 text-3xl'>
-                        <Link onClick={handleClick} to='about' spy={true} smooth={true} duration={500} offset={-120}>
+                        <Link onClick={handleClick} activeClass="text-neutral-100 border-b-4 border-pink-600" to='about' spy={true} smooth={true} duration={500} offset={-120}>
                             About
                         </Link>
                     </li>
                     <li className='border-b-2 border-pink-600 hover:text-neutral-50 font-bold py-6 text-3xl'>
-                        <Link onClick={handleClick} to='skills' spy={true} smooth={true} duration={500} offset={-70}>
+                        <Link onClick={handleClick} activeClass="text-neutral-100 border-b-4 border-pink-600" to='skills' spy={true} smooth={true} duration={500} offset={-70}>
                             Skills
                         </Link>
                     </li>
                     <li className='border-b-2 border-pink-600 hover:text-neutral-50 font-bold py-6 text-3xl'>
-                        <Link onClick={handleClick} to='portfolio' spy={true} smooth={true} duration={500}>
+                        <Link onClick={handleClick} activeClass="text-neutral-100 border-b-4 border-pink-600" to='portfolio' spy={true} smooth={true} duration={500}>
                             Portfolio
                         </Link>
                     </li>
                     <li className='border-b-2 border-pink-600 hover:text-neutral-50 font-bold py-6 text-3xl'>
-                        <Link onClick={handleClick} to='contact' spy={true} smooth={true} duration={500}>
+                        <Link onClick={handleClick} activeClass="text-neutral-100 border-b-4 border-pink-600" to='contact' spy={true} smooth={true} duration={500}>
                             Contact
                         </Link>
                     </li>
