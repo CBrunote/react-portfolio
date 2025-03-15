@@ -1,32 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.3584669d.css",
-    "main.js": "/static/js/main.fed40df5.js",
+    "main.css": "/static/css/main.a686a63a.css",
+    "main.js": "/static/js/main.cb58f3cd.js",
     "static/media/Whats-For-Dinner.png": "/static/media/Whats-For-Dinner.77c64b64c7aaba1604c8.png",
-    "static/media/family2021-7694.png": "/static/media/family2021-7694.1a193800fd0ffeadcaca.png",
+    "static/media/headshot2.jpeg": "/static/media/headshot2.31572b3c8a768fc11796.jpeg",
+    "static/media/Christian_Bruno_Resume_MAR_2025.pdf": "/static/media/Christian_Bruno_Resume_MAR_2025.b6421a12ace4201ad25f.pdf",
     "static/media/weather-dashboard.png": "/static/media/weather-dashboard.5c140991450e7dbb137a.png",
     "static/media/code-quiz.png": "/static/media/code-quiz.fe5b3b372794e949d3e9.png",
+    "static/media/Csharp_Logo.png": "/static/media/Csharp_Logo.78d696548e869849bc6e.png",
     "static/media/CBrunote_White.png": "/static/media/CBrunote_White.7407e2203a6cbfce5541.png",
     "static/media/Employee-Tracker.png": "/static/media/Employee-Tracker.c55ca92f16728a0b589f.png",
-    "static/media/Christian_Bruno_Resume_Nov_2022.pdf": "/static/media/Christian_Bruno_Resume_Nov_2022.9671be1690f0a4c1a6aa.pdf",
     "static/media/portfolio.png": "/static/media/portfolio.bbddfdaff066884c73b8.png",
     "static/media/Lyfbro.png": "/static/media/Lyfbro.1e52f3d865344573236d.png",
     "static/media/react.png": "/static/media/react.19ae0ab5e34d423791b3.png",
     "static/media/node.png": "/static/media/node.9c719165657347d7e950.png",
-    "static/media/mongo.png": "/static/media/mongo.c428d84fe19a41269933.png",
-    "static/media/jquery.png": "/static/media/jquery.03ef0c2fd56e4502d562.png",
     "static/media/html.png": "/static/media/html.c69503782ac1fac61cc5.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.f8f1e54866d2742b1802.png",
     "static/media/css.png": "/static/media/css.63f88f799aeea982eeef.png",
+    "static/media/microsoft-net-logo.png": "/static/media/microsoft-net-logo.92243faca8149af227be.png",
     "static/media/tailwind.png": "/static/media/tailwind.c4a10c0bbda38818a1af.png",
     "static/media/mySQL.png": "/static/media/mySQL.82e7c851245aedd16ea7.png",
     "static/media/javascript.png": "/static/media/javascript.c2771487cc77f4e78222.png",
     "index.html": "/index.html",
-    "main.3584669d.css.map": "/static/css/main.3584669d.css.map",
-    "main.fed40df5.js.map": "/static/js/main.fed40df5.js.map"
+    "main.a686a63a.css.map": "/static/css/main.a686a63a.css.map",
+    "main.cb58f3cd.js.map": "/static/js/main.cb58f3cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.3584669d.css",
-    "static/js/main.fed40df5.js"
+    "static/css/main.a686a63a.css",
+    "static/js/main.cb58f3cd.js"
   ]
 }
