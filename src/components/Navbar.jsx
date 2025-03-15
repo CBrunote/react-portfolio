@@ -1,5 +1,5 @@
 import React, {useState }from 'react'
-import resume from '../assets/Christian_Bruno_Resume_Nov_2022.pdf'
+import resume from '../assets/Christian_Bruno_Resume_MAR_2025.pdf'
 import logo from '../assets/CBrunote_White.png'
 import { FaBars, FaTimes} from 'react-icons/fa'
 import { Link } from 'react-scroll'
