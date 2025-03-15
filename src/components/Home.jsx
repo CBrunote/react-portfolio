@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '../assets/Christian_Bruno_Resume_Nov_2022.pdf'
+import resume from '../assets/Christian_Bruno_Resume_MAR_2025.pdf'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { DocumentPdf } from 'grommet-icons'
 import { Link } from 'react-scroll'
@@ -16,7 +16,7 @@ const Home = () => {
             <p className='text-pink-600 font-bold text-xl z-50'>Hi, my name is</p>
             <h1 className='text-4xl sm:text-7xl font-bold text-neutral-100 z-50'>Christian Bruno</h1>
             <h2 className='text-3xl sm:text-6xl font-bold text-neutral-300 z-50'>I'm a Full Stack Developer.</h2>
-            <p className='text-neutral-400 text-lg py-4 max-w-[700px] z-50'>I'm a full-stack web development bootcamp graduate from Georgia Tech specializing in building (and occasionally designing) exceptional digital experiences on the web. Currently I am looking for opportunites to join a team as a software developer.</p>
+            <p className='text-neutral-400 text-lg py-4 max-w-[700px] z-50'>I'm a full-stack web developer with 2+ years experince devloping (and occasionally designing) exceptional digital experiences on the web. Currently I am exploring new employment opportunities.</p>
             <div className='flex space-x-4 z-50'>
                 <Link to='portfolio' spy={true} smooth={true} duration={500} className='group-hover:rotate-90 duration-300'>
                     <button className='text-neutral-100 group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>View Work 

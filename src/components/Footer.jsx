@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className='py-5 text-center bg-neutral-100 z-50'>
       <ul className='flex justify-center align-center gap-4'>
@@ -17,7 +18,7 @@ const Footer = () => {
         </li>
       </ul>
         <p className='text-md mt-2 text-neutral-600'>
-        © 2022 Christian Bruno. All rights reserved.
+        © {currentYear} Christian Bruno. All rights reserved.
         </p>
     </footer>
   )
